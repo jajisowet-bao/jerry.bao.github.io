@@ -3,33 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Jerry 的个人博客</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background: #f8f8f8; }
+    h1 { color: #333; }
+    .link-btn { display: block; width: 300px; margin: 20px auto; padding: 14px; background: #007bff; color: white; text-decoration: none; border-radius: 10px; font-size: 18px; }
+    .link-btn:hover { background: #0056b3; }
+    .media { max-width: 900px; margin: 20px auto; }
+    img, video { max-width: 100%; height: auto; display: block; margin: 12px auto; border-radius: 6px; }
+  </style>
 </head>
 <body>
   <h1>欢迎来到我的博客</h1>
   <p>这是我用 GitHub Pages 搭建的第一个网站。</p>
 
-  <p>
-    <a href="2.0包智宏-18001425305.pdf">
-      📄 点击查看我的 PDF 文件
-    </a>
-<style>
-        body { font-family: Arial; text-align: center; padding: 50px; background: #f8f8f8; }
-        h1 { color: #333; }
-        .link-btn { display: block; width: 300px; margin: 30px auto; padding: 20px; background: #007bff; color: white; text-decoration: none; border-radius: 10px; font-size: 20px; }
-        .link-btn:hover { background: #0056b3; }
-    </style>
-</head>
-<body>
-    <h1>欢迎访问我的网站</h1>
-    <p>点击下面查看内容：</p>
-    
-    <!-- 如果你有“第一个文件”（另一个页面），加这里： <a href="first.html" class="link-btn">查看第一个内容</a> -->
-    
-    <a href="my-image.jpg" class="link-btn" target="_blank">📷 点击查看图片</a>
-    
-    <a href="my-video.mp4" class="link-btn" target="_blank">🎥 点击观看视频</a>
-    
-    <p>更新于 2026 年 1 月</p>
+  <!-- PDF 文件（如果文件名含中文或特殊字符，建议重命名为 ASCII 或使用 URL 编码） -->
+  <a href="2.0包智宏-18001425305.pdf" class="link-btn" target="_blank" rel="noopener noreferrer">📄 点击查看我的 PDF 文件</a>
+
+  <h2>其它内容</h2>
+  <p>点击下面查看内容：</p>
+
+  <!-- 点击在新窗口打开图片（保持你原来的行为） -->
+  <a href="my-image.jpg" class="link-btn" target="_blank" rel="noopener noreferrer">📷 点击查看图片（新标签）</a>
+
+  <!-- 视频链接（新标签） -->
+  <a href="my-video.mp4" class="link-btn" target="_blank" rel="noopener noreferrer">🎥 点击观看视频（新标签）</a
+  <p>更新于 2026 年 1 月</p>
 </body>
 </html>
-
